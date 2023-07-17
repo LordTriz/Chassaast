@@ -10,7 +10,12 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+  apiKey: "AIzaSyD7tm6MSXTjFPTpOm8MNlrWiq30WnvW7L8",
+    authDomain: "truzizixi.firebaseapp.com",
+    projectId: "truzizixi",
+    storageBucket: "truzizixi.appspot.com",
+    messagingSenderId: "775259397683",
+    appId: "1:775259397683:we
 })
 
 const auth = firebase.auth();
